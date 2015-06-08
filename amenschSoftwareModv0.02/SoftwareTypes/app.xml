@@ -1,0 +1,49 @@
+<SoftwareType>
+	<Name>Mobile Phone App</Name>
+	<Description>From an old Nokia to our newest Smartphones, they will always be there!</Description>
+	<Random>0.1</Random>
+	<Popularity>2.8</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>2002</Unlock>
+	<Category>Software</Category>
+	<NameGenerator>appgen</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+		<Name>Operating System</Name>
+		<Name>Text Editor</Name>
+		<Name>Browser</Name>
+		<Name>Video Player</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Basic Text App</Name>
+			<Description>You can write and save Text, no smilies and other symbols.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Text Editor">Basic Text Editing</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Basic Text App</From>
+			<Unlock>2010</Unlock>
+			<Name>Text App</Name>
+			<Description>You can now put smilies and Symbols in your Text and choose a color for the Text.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1.4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0.7</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependencies>
+				<Dependency Software="Text Editor">Basic Text Editing</Dependency>
+				<Dependency Software="Text Editor">Extended Text Editing</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

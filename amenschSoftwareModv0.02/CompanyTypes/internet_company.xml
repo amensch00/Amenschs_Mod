@@ -1,0 +1,7 @@
+<CompanyType>
+	<Specialization>Internet Developers</Specialization>
+	<Chance>6</Chance>
+	<Types>
+		<Type Name="Browser">1</Type>
+	</Types>
+</CompanyType>

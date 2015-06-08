@@ -1,0 +1,74 @@
+<SoftwareType>
+	<Name>Streaming Software</Name>
+	<Description>You can Stream Videos and Music.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>2008</Unlock>
+	<Category>Video Player</Category>
+	<NameGenerator>stream_name</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Video Player</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Basic</Name>
+			<Description>Basic Streaming, either 360px or 240px</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1.2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>2</CodeArt>
+			<Unlock>1989</Unlock>
+			<Server>18</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Video Player">Basic Player</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Basic</From>
+			<Name>Better Network</Name>
+			<Description>Better Network, now there are also 560px and 720px. But needs a 64bit OS.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3.3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1.8</Stability>
+			<CodeArt>2</CodeArt>
+			<Unlock>2007</Unlock>
+			<Server>38</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Video Player">High Quality Player</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Better Network</From>
+			<Name>Ultra Quality</Name>
+			<Description>Now with 4K!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3.8</Usability>
+			<Stability>2</Stability>
+			<CodeArt>4</CodeArt>
+			<Unlock>2013</Unlock>
+			<Server>56</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Video Player">4K Video Player</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

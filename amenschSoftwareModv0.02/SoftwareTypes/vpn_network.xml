@@ -1,0 +1,80 @@
+<SoftwareType>
+	<Name>VPN Software</Name>
+	<Description>This is a VPN Software, it needs at least eight basic Server.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.9</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<Unlock>2006</Unlock>
+	<InHouse>FALSE</InHouse>
+	<SCM>TRUE</SCM>
+	<Networking>TRUE</Networking>
+	<Category>Tools</Category>
+	<NameGenerator>vpn_names</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Networking</Name>
+			<Description>Without Networking nothing do its job!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>22</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Basics</Name>
+			<Description>These are the basics of a VPN Software.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Basics</From>
+			<Name>Extended Basics</Name>
+			<Description>These are the extended basics of a VPN Software.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>-1</Stability>
+			<Server>14</Server>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Extended Basics</From>
+			<Name>Graphical User Interface</Name>
+			<Description>This will help many Users with a Graphical Interface.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>-2</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="VPN Software">Extended Basics</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

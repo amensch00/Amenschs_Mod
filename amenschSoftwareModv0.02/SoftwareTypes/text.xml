@@ -1,0 +1,80 @@
+<SoftwareType>
+	<Name>Text Editor</Name>
+	<Description>Editing Text is one of the most used Time in the office!</Description>
+	<Random>0.1</Random>
+	<Popularity>2.8</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>1970</Unlock>
+	<Category>Software</Category>
+	<NameGenerator>textgen</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+		<Name>Operating System</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Basic Text Editing</Name>
+			<Description>Basic Text writing and editing, ready to save your files, no smilies or other Symbols.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>GUI</Name>
+			<Description>A Graphical User Interface.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2.5</Innovation>
+			<Usability>3</Usability>
+			<Stability>1.6</Stability>
+			<Unlock>1982</Unlock>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>GUI</From>
+			<Name>Extended Text Editing</Name>
+			<Description>You can now put smilies and Symbols in your Text and choose a color for the Text.</Description>
+			<DevTime>3</DevTime>
+			<Unlock>1991</Unlock>
+			<Innovation>2.1</Innovation>
+			<Usability>2.7</Usability>
+			<Stability>2</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Extended Text Editing</From>
+			<Name>Images Editing</Name>
+			<Description>You can now do basic Image editing without to need another Visual Tool!</Description>
+			<DevTime>4</DevTime>
+			<Unlock>2001</Unlock>
+			<Innovation>3.2</Innovation>
+			<Usability>4.2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Visual Tool">Image editing</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

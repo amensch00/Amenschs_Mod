@@ -1,0 +1,11 @@
+-start(base,pre)
+-pre(base)
+Fire-
+Moogle-
+Orea-
+-base(base2)
+Browser
+Fix
+Trip
+Internet
+-base2(stop)

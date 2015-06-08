@@ -1,0 +1,69 @@
+<SoftwareType>
+	<Name>Browser</Name>
+	<Description>Without a Browser you can't access the Internet.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.6</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>1991</Unlock>
+	<Networking>TRUE</Networking>
+	<Category>Internet</Category>
+	<NameGenerator>browsergen</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Basics</Name>
+			<Description>Only one Task, no CSS-Style - only Text.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.3</Stability>
+			<Server>24</Server>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Basics</From>
+			<Name>Evolved Browsing</Name>
+			<Description>Up to three Tasks, CSS-Style enabled.</Description>
+			<DevTime>4</DevTime>
+			<Server>16</Server>
+			<Innovation>2</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0.3</Stability>
+			<Unlock>1993</Unlock>
+			<CodeArt>2</CodeArt>
+			<2D>2</2D>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<From>Evolved Browsing</From>
+			<Name>Games</Name>
+			<Description>No Tasks-Limitations, HTML Games and Music support.</Description>
+			<DevTime>4</DevTime>
+			<Server>22</Server>
+			<Innovation>2</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>2</CodeArt>
+			<Unlock>1996</Unlock>
+			<2D>2</2D>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,156 @@
+<SoftwareType>
+	<Name>VOIP Software</Name>
+	<Description>All the Gamer need a Teamspeak!</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>2004</Unlock>
+	<Category>Gaming</Category>
+	<NameGenerator>ts_names</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="FALSE">
+			<Name>Basic Teamspeak</Name>
+			<Description>This is a basic VOIP Program, looks like a DOS interface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1.8</Usability>
+			<Stability>0.4</Stability>
+			<Server>12</Server>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Unlock>2005</Unlock>
+			<From>Basic Teamspeak</From>
+			<Name>Better Teamspeak</Name>
+			<Description>This is a better VOIP Program, a better Console and dedicated Server.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3.8</Innovation>
+			<Usability>2.5</Usability>
+			<Server>16</Server>
+			<Stability>0.5</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>64bit Teamspeak</Name>
+			<Description>More RAM for the VOIP Program.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3.9</Innovation>
+			<Server>4</Server>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<Unlock>2004</Unlock>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>GUI</Name>
+			<Description>A Graphical Interface makes the Software always better.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4.3</Innovation>
+			<Server>4</Server>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<Unlock>2004</Unlock>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Voice Translater</Name>
+			<Description>A Translater for all Languages. Translates automatically in your Language!</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4.3</Innovation>
+			<Server>48</Server>
+			<Usability>6</Usability>
+			<Stability>2</Stability>
+			<Unlock>2017</Unlock>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Audio Tool">Music editor</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Direct Connect</Name>
+			<Description>Connects you directly to another User. No need for Server.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4.5</Innovation>
+			<Server>-2</Server>
+			<Usability>6</Usability>
+			<Stability>2.3</Stability>
+			<Unlock>2015</Unlock>
+			<CodeArt>3</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="VOIP Software">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Join via IP</Name>
+			<Description>Now you only have to know the IP of the Server to connect.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>-1</Innovation>
+			<Server>2</Server>
+			<Usability>1</Usability>
+			<Stability>1.7</Stability>
+			<Unlock>2015</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Audio Tool">Recording</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="VOIP Software">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
