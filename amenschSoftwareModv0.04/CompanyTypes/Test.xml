@@ -1,0 +1,21 @@
+<CompanyType>
+	<Specialization>MoneyMaker</Specialization>
+	<PerYear>
+		<Small>0.2</Small>
+		<Medium>0.2</Medium>
+		<Large>0.2</Large>
+	</PerYear>
+	<Min>
+		<Small>0</Small>
+		<Medium>0</Medium>
+		<Large>1</Large>
+	</Min>
+	<Max>
+		<Small>1</Small>
+		<Medium>2</Medium>
+		<Large>3</Large>
+	</Max>
+	<Types>
+		<Type Name="Operating System">1</Type>
+	</Types>
+</CompanyType>
