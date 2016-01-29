@@ -1,0 +1,76 @@
+<SoftwareType>
+	<Name>Browser</Name>
+	<Description>Without a Browser you can't watch p... people playing games.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.6</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>1991</Unlock>
+	<Networking>TRUE</Networking>
+	<Category>Internet</Category>
+	<Retention>0.9</Retention>
+	<Iterative>0.1</Iterative>
+	<NameGenerator>browsergen</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>GUI</Name>
+			<Description>Graphical User Interface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Basics</Name>
+			<Description>Pure Text.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Basics">
+			<Name>Evolved Browsing</Name>
+			<Description>CSS now avaiable.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0.3</Stability>
+			<Unlock>1993</Unlock>
+			<CodeArt>0.1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Evolved Browsing">
+			<Name>Games</Name>
+			<Description>Browser Games and Music support.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Unlock>1996</Unlock>
+			<2D>2</2D>
+			<Dependencies>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

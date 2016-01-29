@@ -1,0 +1,85 @@
+<SoftwareType>
+	<Name>Streaming Software</Name>
+	<Description>You can stream videos or music now directly, without having to download it first</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>2008</Unlock>
+	<Retention>0.5</Retention>
+	<Iterative>0.2</Iterative>
+	<Category>Video Player</Category>
+	<NameGenerator>stream_name</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Video Player</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>GUI</Name>
+			<Description>Graphical User Interface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.3</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Basic</Name>
+			<Description>Basic Streaming, supports up to 360p resolution</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1.2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1989</Unlock>
+			<Server>0.004</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Video Player">Basic Player</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Basic">
+			<Name>Better Network</Name>
+			<Description>Better communication with server, now there are also 560px and 720px. But needs a 64bit OS.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3.3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1.8</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2007</Unlock>
+			<Server>0.009</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Video Player">High Quality Player</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Better Network">
+			<Name>Ultra Quality</Name>
+			<Description>Now with 4K!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3.8</Usability>
+			<Stability>2</Stability>
+			<CodeArt>4</CodeArt>
+			<Unlock>2013</Unlock>
+			<Server>0.01</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Video Player">4K Video Player</Dependency>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">64-bit</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

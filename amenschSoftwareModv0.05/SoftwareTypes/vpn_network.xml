@@ -1,0 +1,90 @@
+<SoftwareType>
+	<Name>VPN Software</Name>
+	<Description>This is a VPN Software. A very useful tool if you are a hacker.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.9</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<Unlock>2006</Unlock>
+	<InHouse>FALSE</InHouse>
+	<Retention>0.4</Retention>
+	<Iterative>0.2</Iterative>
+	<Networking>TRUE</Networking>
+	<Category>Tools</Category>
+	<NameGenerator>vpn_names</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>GUI</Name>
+			<Description>Graphical User Interface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.3</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Networking</Name>
+			<Description>Without it, nothing does it's job!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>0.0009</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Basics</Name>
+			<Description>These are the basics of a VPN Software.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Basics">
+			<Name>Extended Basics</Name>
+			<Description>These are the extended basics of a VPN Software.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>-1</Stability>
+			<Server>0.0009</Server>
+			<CodeArt>0.9</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Extended Basics">
+			<Name>Graphical User Interface</Name>
+			<Description>That'll help many confused users</Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>-2</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependencies>
+				<Dependency Software="VPN Software">Extended Basics</Dependency>
+				<Dependency Software="Operating System">GUI</Dependency>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

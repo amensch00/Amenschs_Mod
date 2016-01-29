@@ -1,0 +1,86 @@
+<SoftwareType>
+	<Name>Video Player</Name>
+	<Description>The DVD is nonsense without it.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Retention>0.6</Retention>
+	<Iterative>0.1</Iterative>
+	<Unlock>1989</Unlock>
+	<Category>Visual Tool</Category>
+	<NameGenerator>playergen</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>GUI</Name>
+			<Description>Graphical User Interface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>Basic Player</Name>
+			<Description>Plays videos in 140px-360px quality.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Basic Player">
+			<Name>High Quality Player</Name>
+			<Description>Plays videos with up to 720px quality.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2007</Unlock>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="High Quality Player">
+			<Name>Ultra High Quality Player</Name>
+			<Description>Plays videos in full HD.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Unlock>2010</Unlock>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Ultra High Quality Player">
+			<Name>4K Video Player</Name>
+			<Description>Plays videos with up to 4K quality.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2012</Unlock>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Audio playback</Dependency>
+				<Dependency Software="Visual Tool">Image viewing</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
