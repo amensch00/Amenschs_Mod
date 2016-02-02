@@ -1,14 +1,15 @@
 <Scenario>
 	<Name>Realistic Scenario</Name>
 	<Money>
-		<Amount>250</Amount>
-		<Amount>1000</Amount>
+		<Amount>2200</Amount>
+		<Amount>3500</Amount>
 		<Amount>5000</Amount>
 	</Money>
 	<Goals>
 		<Goal>Money 200000,Date 6-1980</Goal>
 		<Goal>Money 468000,Date 4-1982</Goal>
 		<Goal>Money 2000000,Date 4-1988</Goal>
+		<Goal>Money 40000000, Date 3-1999</Goal>
 	</Goals>
 	<Years>
 		<Year>1976</Year>
