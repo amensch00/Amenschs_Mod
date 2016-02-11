@@ -23,5 +23,5 @@
 	<Events>
 	</Events>
 	<Simulation>TRUE</Simulation>
-	<StartingArea>9,128,512,512</StartingArea>
+	<StartingArea>9,0,247,246</StartingArea>
 </Scenario>
