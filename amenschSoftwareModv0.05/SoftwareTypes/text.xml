@@ -2,7 +2,7 @@
 	<Name>Text Editor</Name>
 	<Description>Well, writing text is always useful!</Description>
 	<Random>0.1</Random>
-	<Popularity>2.8</Popularity>
+	<Popularity>0.5</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>

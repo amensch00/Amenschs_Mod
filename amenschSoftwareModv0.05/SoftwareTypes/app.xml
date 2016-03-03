@@ -2,7 +2,7 @@
 	<Name>Mobile Phone App</Name>
 	<Description>Apps exist since mankind invented it...obviously</Description>
 	<Random>0.1</Random>
-	<Popularity>2.8</Popularity>
+	<Popularity>0.8</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<Retention>0.1</Retention>
